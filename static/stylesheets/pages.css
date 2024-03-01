@@ -1,0 +1,43 @@
+body
+{
+    background-color: rgb(2, 45, 81);
+}
+
+.header
+{
+    background-color: rgb(15, 65, 140);
+    border-radius: 15px;
+}
+
+.header h5
+{
+    margin-left: 5%;
+    color: white;
+}
+
+.header h1
+{
+    margin-left: 20%;
+    color: rgb(212, 212, 212);
+    /*text-align: center;*/
+}
+
+.contents
+{
+    background-color: rgb(15, 65, 140);
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contents h4
+{
+    color: white;
+}
+
+.contents p
+{
+    color: white;
+}
