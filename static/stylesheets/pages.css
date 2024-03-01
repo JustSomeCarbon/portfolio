@@ -7,18 +7,25 @@ body
 {
     background-color: rgb(15, 65, 140);
     border-radius: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 10px;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
 }
 
 .header h5
 {
+    font-size: 18px;
     margin-left: 5%;
     color: white;
 }
 
 .header h1
 {
+    font-size: 45px;
     margin-left: 20%;
-    color: rgb(212, 212, 212);
+    color: rgb(216, 216, 216);
     /*text-align: center;*/
 }
 
@@ -30,14 +37,21 @@ body
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .contents h4
 {
+    font-size: 22px;
     color: white;
 }
 
 .contents p
 {
+    line-height: 1.3;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
     color: white;
 }
