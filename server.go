@@ -28,5 +28,7 @@ func main() {
 // dictates what port the server is listening on and starts the server
 func start_server(port string) {
 	fmt.Printf("Server listening at port %s\n", port)
-	log.Fatal(http.ListenAndServe(port, nil))
+	if err := http.ListenAndServe(port, nil); err != nil {
+		log.Fatal(err)
+	}
 }

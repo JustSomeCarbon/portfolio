@@ -1,0 +1,9 @@
+.contents a, a:link
+{
+    color: beige !important;
+}
+
+.contents a:visited
+{
+    color: khaki;
+}
