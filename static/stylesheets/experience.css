@@ -1,0 +1,24 @@
+.experience_body
+{
+    background-color: rgb(15, 65, 140);
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 10px;
+}
+
+.experience_body #prev_exp h2
+{
+    color: antiquewhite;
+    padding-left: 10px;
+}
+
+.experience_body #prev_exp p
+{
+    color: white;
+    padding-left: 12px;
+}
